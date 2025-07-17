@@ -1,0 +1,40 @@
+@import "./global/header.css";
+@import "./global/global.css";
+@import "./home/introducao.css";
+@import "./utilidades/componentes.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "./servicos/servicos-lista.css";
+@import "./home/depoimentos.css";
+@import "./depoimentos/depoimentos-lista.css";
+
+.logo {
+  width: 280px;
+}
+/* Estilo do ícone do WhatsApp */
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #77afa8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.whatsapp-float:hover {
+  background-color: #77afa8;
+}
+
+.whatsapp-icon {
+  width: 35px;
+  height: 35px;
+}
+
+
+

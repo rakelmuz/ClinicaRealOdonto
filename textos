@@ -1,0 +1,56 @@
+<ul>
+  <li>
+    <a href="">
+      <img src="./img/implantes3.PNG" alt="">
+      <h3 class="font-1-xl"> Implantes</h3>
+      <span class="font-2-m"> Nosso serviço de implantes odontológicos oferece soluções modernas e seguras para reposição dentária, visando devolver a funcionalidade e a estética do sorriso. Com técnicas avançadas e materiais de alta qualidade, realizamos procedimentos que imitam a estrutura e a aparência dos dentes naturais, proporcionando conforto e durabilidade. Nossa equipe prioriza um tratamento rápido e seguro, com foco no bem-estar e na recuperação estética do paciente, devolvendo a confiança para sorrir, mastigar e falar com naturalidade.</span>
+  </li>
+  <li>
+    <img src="./img/protocolo.PNG">
+
+    <h3 class="font-1-xl"> Profilaxia </h3>
+    <span class="font-2-m"> Nosso serviço de profilaxia odontológica é voltado para a prevenção e manutenção da saúde bucal, garantindo uma limpeza profunda e eficaz dos dentes e gengivas. Utilizamos técnicas modernas para remover placas bacterianas e tártaros que não são eliminados na escovação diária, prevenindo cáries, gengivites e outras doenças bucais. Nossos profissionais realizam o procedimento com cuidado e delicadeza, proporcionando uma experiência confortável e promovendo um sorriso mais saudável e radiante. </span>
+  </li>
+  <li>
+    <img src="./img/aparelho2.PNG">
+    <h3 class="font-1-xl"> Ortodontia</h3>
+    <span class="font-2-m">Nosso serviço de ortodontia oferece tratamentos personalizados para alinhar e corrigir a posição dos dentes e da mandíbula, proporcionando um sorriso mais harmonioso e saudável. Utilizamos técnicas modernas e aparelhos de alta qualidade, incluindo alinhadores invisíveis e aparelhos fixos tradicionais, priorizando sempre um tratamento mais rápido, confortável e esteticamente agradável. Assim, buscamos atender às necessidades estéticas e funcionais de cada paciente, oferecendo resultados eficazes e que valorizem a beleza do sorriso.</span>
+
+  </li>
+  <li>
+    <img src="./img/protocolo.PNG">
+
+    <h3 class="font-1-xl"> Endodontia
+    </h3>
+    <span class="font-2-m">Nosso serviço de endodontia é especializado no tratamento de canal, focado na preservação do dente natural e no alívio de dores intensas causadas por inflamações ou infecções na polpa dentária. Utilizamos técnicas avançadas e equipamentos modernos para realizar o tratamento de forma precisa, segura e praticamente indolor, assegurando o máximo de conforto ao paciente. Nossa equipe altamente qualificada prioriza um atendimento ágil e eficaz, devolvendo a saúde e a funcionalidade do dente e promovendo um sorriso saudável.</span>
+  </li>
+  <li>
+    <img src="./img/protocolo.PNG">
+
+    <h3 class="font-1-xl"> Restaurações </h3>
+    <span class="font-2-m">Nosso serviço de restaurações dentárias visa recuperar a integridade e a estética dos dentes, tratando cáries e pequenos danos com materiais de alta qualidade e longa durabilidade. Realizamos restaurações estéticas que se integram perfeitamente à cor e ao formato natural dos dentes, garantindo um resultado harmonioso e discreto. Nossa equipe preza por um atendimento confortável e rápido, devolvendo a funcionalidade e a beleza do sorriso de forma segura e eficaz. </span>
+  </li>
+  <li>
+    <img src="./img/protocolo.PNG">
+    <h3 class="font-1-xl"> Próteses em geral </h3>
+    <span class="font-2-m"> Nosso serviço de prótese dentária inclui também a opção de prótese protocolo, uma solução eficaz para pacientes que perderam todos os dentes em uma arcada. A prótese protocolo é fixada com implantes dentários, proporcionando um suporte estável e confortável, que garante a funcionalidade completa da mastigação e a estética do sorriso. Essa técnica avançada oferece um resultado altamente satisfatório, com um visual natural e durável, ideal para quem busca restaurar a confiança e a qualidade de vida. Nossa equipe utiliza materiais de alta qualidade e métodos precisos para garantir um tratamento seguro, rápido e com excelentes resultados.</span>
+
+  </li>
+  <li>
+    <img src="./img/facetasResina1.PNG">
+    <h3 class="font-1-xl"> Facetas em resina </h3>
+    <span class="font-2-m"> </span>
+
+  </li>
+  <li>
+    <img src="./img/aparelho2.PNG">
+    <h3 class="font-1-xl"> Facetas em porcelana </h3>
+    <span class="font-2-m"> </span>
+
+  </li>
+  <li>
+    <img src="./img/aparelho2.PNG">
+    <h3 class="font-1-xl"> Raspagem periodontal </h3>
+    <span class="font-2-m"> </span>
+
+  </li>
