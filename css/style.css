@@ -9,8 +9,11 @@
 @import "./depoimentos/depoimentos-lista.css";
 
 .logo {
-  width: 280px;
+  width: 100%;
+  max-width: 240px;
+  height: auto;
 }
+
 /* Estilo do ícone do WhatsApp */
 .whatsapp-float {
   position: fixed;
