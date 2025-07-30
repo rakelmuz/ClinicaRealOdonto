@@ -1,0 +1,145 @@
+.sobrenos-bg {
+  background-color: #77afa8;
+  box-shadow: inset 0 50px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+
+.sobrenos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.sobrenos-imagem {
+  width: 100% !important;
+  max-width: 600px !important; /* ajuste conforme necessário */
+  margin: 10px auto !important; 
+  text-align: center !important;
+}
+
+.sobrenos-imagem img {
+  width: 100% !important;
+  padding-top: 50px !important;
+  height: 100% !important;
+  object-fit: contain !important; /* garante que a imagem não seja cortada */
+  border-radius: 4px !important;
+  background-color: white !important;
+
+}
+
+
+.sobrenos-conteudo {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.sobrenos-conteudo > span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.sobrenos-conteudo h2 {
+  margin-bottom: 32px;
+}
+
+.sobrenos-conteudo > p {
+  margin-bottom: 20px;
+}
+
+.sobrenos a {
+  margin-bottom: 80px;
+}
+
+.sobrenos-vantagens {
+  display: flex;
+  gap: 40px;
+}
+
+.sobrenos-vantagens h3 {
+  margin-bottom: 8px;
+  width: max-content;
+}
+
+.sobrenos-vantagens img {
+  width: 324px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .sobrenos-bg {
+    box-shadow: initial;
+  }
+  .sobrenos {
+    grid-template-columns: 1fr;
+  }
+  .sobrenos-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .sobrenos-imagem {
+    display: none;
+  }
+  .sobrenos a {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 200px) {
+  .sobrenos-vantagens {
+    flex-direction: column;
+  }
+}
+
+
+.sobrenos-vantagens {
+  position: relative;
+  overflow: hidden;
+}
+
+.sobrenos-servicos-lista {
+  display: flex;
+  gap: 40px;
+  padding: 0 20px 20px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  overflow: hidden;
+
+}
+.sobrenos-servicos-lista li {
+  flex: 1;
+  min-width: 100px;
+  list-style: none;
+}
+ 
+.sobrenos-servicos-lista img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}

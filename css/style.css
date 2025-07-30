@@ -6,11 +6,13 @@
 @import "./utilidades/tipografia.css";
 @import "./servicos/servicos-lista.css";
 @import "./home/depoimentos.css";
+@import "./home/sobrenos.css";
+@import "./home/sobreTeste.css";
 @import "./depoimentos/depoimentos-lista.css";
 
 .logo {
   width: 100%;
-  max-width: 250px;
+  max-width: 210px;
   height: auto;
 }
 
