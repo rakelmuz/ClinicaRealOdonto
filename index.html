@@ -160,7 +160,7 @@
     </div>
   </article>
 
-  <article class="depoimentos-lista">
+  <!-- <article class="depoimentos-lista">
     <h2 class="container font-1-xxl"> O que nossos pacientes falam sobre nós<span>.</span></h2>
     <div class="arrowDepoimentos left" onclick="scrollLeftDepoimentos()">&#10094;</div>
     <ul>
@@ -181,6 +181,68 @@
     </ul>
     <div class="arrowDepoimentos right" onclick="scrollRightDepoimentos()">&#10095;</div>
 
+  </article> -->
+
+
+  <article class="depoimentos-lista">
+    <h2 class="container font-1-xxl"> O que nossos pacientes falam sobre nós<span>.</span></h2>
+    <div class="arrowDepo left" onclick="scrollLeft()">&#10094;</div>
+    <ul>
+      <li>
+        <a href="./servicos/implantes.html">
+          <img src="./img/depoimento1.PNG" alt="">
+          <span class="font-2-m"> </span>
+        </a>
+      </li>
+      <li>
+        <a href="./serviços/profilaxia.html">
+          <img src="./img/feedbackPacienteDiegoCesar.png" alt="">
+          <span class="font-2-m"> </span>
+        </a>
+      </li>
+      <li>
+        <a href="./servicos/ortodontia.html">
+          <img src="./img/feedbackPacienteJulya.PNG" alt="">
+          <span class="font-2-m"></span>
+        </a>
+
+      </li>
+      <li>
+        <a href="./servicos/endodontia.html">
+          <img src="./img/feedbackPacienteJonathan.PNG" alt="">
+          <span class="font-2-m"></span>
+        </a>
+      </li>
+      <li>
+        <a href="./servicos/restauracoes.html">
+          <img src="./img/feedbackPacienteCaique.PNG" alt="">
+          <span class="font-2-m"></span>
+        </a>
+      </li>
+      <li>
+        <a href="./servicos/proteses.html">
+
+          <img src="./img/feedbackPacienteAnnaBeatriz.PNG" alt="">
+          <span class="font-2-m"></span>
+        </a>
+      </li>
+      <li>
+        <a href="./servicos/raspagemPeriodontal.html">
+
+          <img src="./img/feedbackPacienteMariela.PNG" alt="">
+          <span class="font-2-m"> </span>
+        </a>
+      </li>
+
+      <li>
+        <a href="./servicos/facetasResina.html">
+          <img src="./img/feedbackPacienteFace.PNG" alt="">
+          <span class="font-2-m"> </span>
+        </a>
+      </li>
+    </ul>
+    <div class="arrowDepo right" onclick="scrollRight()">&#10095;</div>
+
   </article>
   <!-- Ícone do WhatsApp no canto inferior direito -->
   <a href="https://wa.me/553534061245" class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">
@@ -189,7 +251,7 @@
 
   <script>
     const servicosLista = document.querySelector('.servicos-lista ul');
-    //const sobrenosLista = document.querySelector('.sobreTeste-lista ul');
+    const depoimentosLista = document.querySelector('.depoimentos-lista ul');
 
     function scrollLeft() {
       servicosLista.scrollBy({ left: -500, behavior: 'smooth' });
@@ -197,6 +259,14 @@
 
     function scrollRight() {
       servicosLista.scrollBy({ left: 500, behavior: 'smooth' });
+    }
+
+    function scrollLeftDepo() {
+      depoimentosLista.scrollBy({ left: -500, behavior: 'smooth' });
+    }
+
+    function scrollRightDepo() {
+      depoimentosLista.scrollBy({ left: 500, behavior: 'smooth' });
     }
     // function scrollLeftSobre() {
     //   sobrenosLista.scrollBy({ left: -500, behavior: 'smooth' });
@@ -208,6 +278,8 @@
     // Verifique se as setas estão sendo clicadas
     document.querySelector('.arrow.left').addEventListener('click', scrollLeft);
     document.querySelector('.arrow.right').addEventListener('click', scrollRight);
+    document.querySelector('.arrowDepo.left').addEventListener('click', scrollLeftDepo);
+    document.querySelector('.arrowDepo.right').addEventListener('click', scrollRightDepo);
     // Verifique se as setas estão sendo clicadas
     // document.querySelector('.arrowSobre.left').addEventListener('click', scrollLeftSobre);
     // document.querySelector('.arrowSobre.right').addEventListener('click', scrollRightSobre);

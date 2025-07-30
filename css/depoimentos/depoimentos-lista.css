@@ -14,7 +14,7 @@
 
 .depoimentos-lista ul {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   padding: 0 20px 20px 20px;
   max-width: 1400px;
   margin-left: auto;
@@ -32,7 +32,7 @@
 
 }
 
-.arrowDepoimentos {
+.arrowDepo {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -49,11 +49,11 @@
   border-radius: 50%;
 }
 
-.arrowDepoimentos.left {
+.arrowDepo.left {
   left: 10px;
 }
 
-.arrowDepoimentos.right {
+.arrowDepo.right {
   right: 10px;
 }
 .depoimentos-lista a {
@@ -62,7 +62,7 @@
 
 .depoimentos-lista img {
   margin-bottom: 16px;
-  height: 480px !important;
+  height: 280px !important;
 
 }
 
