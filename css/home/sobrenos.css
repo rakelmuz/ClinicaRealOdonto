@@ -18,12 +18,9 @@
 
 .sobrenos-imagem img {
   width: 100% !important;
-  padding-top: 50px !important;
   height: 100% !important;
-  object-fit: contain !important; /* garante que a imagem não seja cortada */
+  object-fit: cover !important; /* garante que a imagem não seja cortada */
   border-radius: 4px !important;
-  background-color: white !important;
-
 }
 
 
