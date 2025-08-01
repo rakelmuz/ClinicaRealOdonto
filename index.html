@@ -26,9 +26,7 @@
           <li><a href="#tratamentos">Tratamentos</a></li>
           <li><a href="#depoimentos">Depoimentos</a></li>
           <li><a href="https://wa.me/553534061245">Agende sua avaliação</a></li>
-
           <li><a href="./Contato">Contato</a></li>
-
         </ul>
       </nav>
     </div>
@@ -40,7 +38,7 @@
           <p class="font-2-l">
             "Nossa equipe especializada oferece atendimento personalizado para transformar seu sorriso com saúde e conforto. Descubra nossos tratamentos modernos e dedicados ao seu bem-estar."
           </p>
-          <a class="botao" href="./sobreNos">Sobre nós</a>
+          <a class="botao" href="#sobrenos">Sobre nós</a>
       </div>
       <div class="introducao-imagem">
         <img src="./img/homeIntroducao.PNG">
@@ -155,7 +153,7 @@
 
       </div>
       <div class="sobrenos-imagem">
-        <img src="./img/sobrenos.PNG" alt="">
+        <img src="./img/sobrenosOk.png" alt="">
       </div>
     </div>
   </article>
@@ -244,21 +242,13 @@
     function scrollRightDepo() {
       depoimentosLista.scrollBy({ left: 500, behavior: 'smooth' });
     }
-    // function scrollLeftSobre() {
-    //   sobrenosLista.scrollBy({ left: -500, behavior: 'smooth' });
-    // }
 
-    // function scrollRightSobre() {
-    //   sobrenosLista.scrollBy({ left: 500, behavior: 'smooth' });
-    // }
     // Verifique se as setas estão sendo clicadas
     document.querySelector('.arrow.left').addEventListener('click', scrollLeft);
     document.querySelector('.arrow.right').addEventListener('click', scrollRight);
     document.querySelector('.arrowDepo.left').addEventListener('click', scrollLeftDepo);
     document.querySelector('.arrowDepo.right').addEventListener('click', scrollRightDepo);
-    // Verifique se as setas estão sendo clicadas
-    // document.querySelector('.arrowSobre.left').addEventListener('click', scrollLeftSobre);
-    // document.querySelector('.arrowSobre.right').addEventListener('click', scrollRightSobre);
+
     let currentSobreIndex = 0;
     const sobreItems = document.querySelectorAll('.carousel-sobre-lista li');
 
