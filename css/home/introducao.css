@@ -2,7 +2,8 @@
 .introducao-bg {
   background: #77afa8;
   color: #e6eae9;
-  box-shadow: inset 0 -120px #ffffff;;
+  box-shadow: inset 0 -120px #ffffff;
+  margin-top: 146px;
 }
 .introducao {
   display: grid;
