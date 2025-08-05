@@ -22,9 +22,32 @@
 .botao:hover {
   background: linear-gradient(#768484, #A2B7B7);
 }
+
+
+.titulo-bg {
+  margin-top: 150px;
+}
+.titulo-bg h1 span {
+  color: #77afa8;
+}
+.titulo p {
+  margin-top: 4px;
+}
 @media (max-width: 600px) {
   .botao {
     padding: 12px 16px;
     font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }

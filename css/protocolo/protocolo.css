@@ -1,0 +1,18 @@
+.protocolo {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.protocolo h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.protocolo p + h2 {
+  margin-top: 40px;
+}
+.protocolo p {
+  margin-bottom: 24px;
+  max-width: 75ch;
+}
+.protocolo h2 span {
+ color: #77afa8;
+}

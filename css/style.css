@@ -9,6 +9,8 @@
 @import "./home/sobrenos.css";
 @import "./home/sobreTeste.css";
 @import "./depoimentos/depoimentos-lista.css";
+@import "./global/footer.css";
+@import "./protocolo/protocolo.css";
 
 .logo {
   width: 100%;
