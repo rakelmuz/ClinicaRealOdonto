@@ -11,7 +11,7 @@
 @import "./depoimentos/depoimentos-lista.css";
 @import "./global/footer.css";
 @import "./protocolo/protocolo.css";
-
+@import "./bicicleta.css";
 .logo {
   width: 100%;
   max-width: 210px;
